@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(231, 228, 228);
+    font-family:'Handlee', cursive;
+}
+#topHeader{
+    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    text-align: center;
+    background-size: cover;
+    height:135px;
+}
+.softedg:not(#copyright){
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color:white;
+    margin-bottom:10px;
+    margin-top: 10px;
+    font-size:17px;
+}
+.circle{
+    margin-bottom: 5px;
+    border-radius: 50%;
+    border:3px solid white;
+    width: 83px;
+}
+h1{
+    margin-top: -30px;;
+    padding-top: 5px;
+    font-size:35px;
+    font-weight: bold;
+    padding-top: 20px;
+ }
+h2{
+    text-align: center;
+}
+.border{
+    color: #20bcd5;
+    text-align: center;
+    border:4px dashed #20bcd5;
+    padding: 10px;
+    display:inline-block;
+}
+.right{
+    text-align: right;
+    float: right;
+}
+table  th, td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    width:100%;
+    text-align: center;
+}
+.selected{
+    background-color: #f36f48;
+    font-weight: bold;
+    color:white;
+}
+progress{
+    width:70%;
+    height:20px;
+}
+li{
+    margin: 17px;
+}
+#media{
+    text-align: center;
+}
+iframe{
+    border:3px solid rgb(49, 168, 172);
+}
+#contact{
+    text-align: center;
+}
+#footerLink{
+    text-align: center;
+}
+.logo{
+    width:50px;
+    margin-left: 10px;
+}
+.face{
+    margin:-30px;
+}
+input,textarea{
+    width:70%;
+    background-color: rgb(229, 226, 226);
+    color:gray;
+    outline: none;
+    border:1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 4px;
+}
+input[type="submit"]{
+    color:white;
+    background-color: #3fb6b2;
+    font-weight:bold;
+    font-size:large;
+}
+#copyright{
+    font-size: x-small;
+    text-align: right;
+    color:grey;
+    margin-bottom: 15px;
+}
